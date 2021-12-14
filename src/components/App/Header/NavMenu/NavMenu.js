@@ -1,13 +1,14 @@
-import React from 'react';
+import React from "react";
 
-import NavItem from './NavItem/NavItem';
+import NavItem from "./NavItem/NavItem";
 
-import './NavMenu.css';
+import "./NavMenu.css";
 
 const NavMenu = () => {
   const navItems = [
-    { label: 'Home', path: '/' },
-    { label: 'Now Playing', path: '/nowPlaying' },
+    { label: "Home", path: "/" },
+    { label: "Now Playing", path: "/nowPlaying" },
+    { label: "Favorite", path: "/favorite" },
   ];
 
   return (

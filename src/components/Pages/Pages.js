@@ -3,12 +3,14 @@ import { Route, Switch } from 'react-router-dom';
 
 import Index from './Index/Index';
 import NowPlaying from './NowPlaying/NowPlaying';
+import Favorite from './Favorite';
 import UnknownPage from './UnknownPage/UnknownPage';
 
 const Pages = () => (
   <Switch>
     <Route exact path="/" component={Index} />
     <Route exact path="/nowPlaying" component={NowPlaying} />
+    <Route exact path="/favorite" component={Favorite} />
     <Route component={UnknownPage} />
   </Switch>
 );

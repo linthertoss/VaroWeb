@@ -2,13 +2,10 @@
   background-color: #282c34;
   color: white;
   padding: 10px;
+  min-height: 100vh;
 }
 
 .Main {
   background-color: white;
   color: #282c34;
-  padding: 10px;
-
-  height: calc(90vh - 40px);
-  width: calc(100% - 20px);
 }

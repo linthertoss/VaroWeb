@@ -5,7 +5,7 @@ import useFetchData from "../../hooks/useFetchData";
 import Card from "../../_shared/Card";
 import useToken from "../../hooks/useToken";
 
-const NowPlaying = () => {
+const Favorite = () => {
   const { response, error, loading } = useFetchData("/movies/nowPlaying");
   const { response: token } = useToken();
 
@@ -41,4 +41,4 @@ const NowPlaying = () => {
   );
 };
 
-export default NowPlaying;
+export default Favorite;
