@@ -1,9 +1,9 @@
 import express from "express";
-import { getTokenNew } from "./../services/imdb";
+import {  getTokenNew } from "./../services/imdb";
 
 let router = express.Router();
 
-router.get("/token/new", async (req, res) => {
+router.get("/guest_session/new", async (req, res) => {
   try {
     const token = await getTokenNew();
 

@@ -1,6 +1,7 @@
 .NavMenu {
   background-color: #282c34;
   color: white;
+  z-index: 99;
 }
 
 .NavList {

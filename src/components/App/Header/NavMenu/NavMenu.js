@@ -8,7 +8,6 @@ const NavMenu = () => {
   const navItems = [
     { label: "Home", path: "/" },
     { label: "Now Playing", path: "/nowPlaying" },
-    { label: "Favorite", path: "/favorite" },
   ];
 
   return (
